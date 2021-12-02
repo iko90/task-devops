@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # What to backup
-backup_files="/home/pilya/test"
+backup_files="/home"
 
 # Our destination to backup
 dest="/home/pilya/Downloads"
@@ -21,7 +21,7 @@ tar czf $dest/$archive_file $backup_files
 
 # Print end status message.
 echo "Backup finished"
-date
+date 
 
 
 # Long listing of files in $dest to check file sizes.
