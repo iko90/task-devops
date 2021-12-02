@@ -28,6 +28,6 @@ date
 ls -lh $dest
 
 
-find $dest -name '21-12-01.tgz' -mtime +59 -delete 
+find $backup_files -name '21-12-01.tgz' -mtime +59 -delete 
 
 
